@@ -1,0 +1,4 @@
+grant {
+	permission java.net.NetPermission "getProxySelector";
+	permission java.lang.RuntimePermission "setContextClassLoader";
+};
