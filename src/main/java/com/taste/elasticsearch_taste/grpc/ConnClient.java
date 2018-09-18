@@ -75,7 +75,7 @@ public class ConnClient {
                 ConnRequest data = datas.get(i);
                 requestStreamObserver.onNext(data);
 
-                Thread.sleep(500);//发完一条消息等一会
+//                Thread.sleep(500);//发完一条消息等一会
                 if(finishLatch.getCount() == 0){
                     break;
                 }
@@ -84,9 +84,9 @@ public class ConnClient {
             requestStreamObserver.onError(e);
             throw e;
         }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         requestStreamObserver.onCompleted();
 
         /**如果消息未接收完毕，一直阻塞*/
@@ -111,9 +111,9 @@ public class ConnClient {
 
 
     public static void main(String []args) throws InterruptedException{
-        List<String> reqdata = new ArrayList<>();
-        reqdata.add("java request1");
-        reqdata.add("java request2");
+        List<String> reqdata = GenerateData.generateData();
+//        reqdata.add("java request1");
+//        reqdata.add("java request2");
         List<ConnRequest> test_datas= FormatGrpcData.formatDate(reqdata);
         ConnClient client = new ConnClient("localhost", 12345);
         try {
