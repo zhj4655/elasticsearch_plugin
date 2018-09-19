@@ -114,7 +114,7 @@ public class ConnClient {
         List<String> reqdata = GenerateData.generateData();
 //        reqdata.add("java request1");
 //        reqdata.add("java request2");
-        List<ConnRequest> test_datas= FormatGrpcData.formatDate(reqdata);
+        List<ConnRequest> test_datas= FormatGrpcData.formatDate("1",reqdata);
         ConnClient client = new ConnClient("localhost", 12345);
         try {
             List<String> result = client.sendRequest(test_datas);

@@ -8,8 +8,9 @@ import java.util.List;
 public class FormatGrpcData {
 
     //格式化数据，将string list转换为ConnRequest list
-    public static List<ConnRequest> formatDate(List<String> datas){
+    public static List<ConnRequest> formatDate(String type,List<String> datas){
         List<ConnRequest> Fdatas = new ArrayList<>();
+        Fdatas.add(ConnRequest.newBuilder().setRequest(type).build());
         for(String data : datas){
             Fdatas.add(ConnRequest.newBuilder().setRequest(data).build());
         }
