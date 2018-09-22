@@ -1,0 +1,3 @@
+S"MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,\n       beta_2=0.999, early_stopping=False, epsilon=1e-08,\n       hidden_layer_sizes=(100,), learning_rate='constant',\n       learning_rate_init=0.001, max_iter=200, momentum=0.9,\n       nesterovs_momentum=True, power_t=0.5, random_state=None,\n       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,\n       verbose=False, warm_start=False)"
+p0
+.

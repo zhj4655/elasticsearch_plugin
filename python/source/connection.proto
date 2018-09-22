@@ -1,0 +1,14 @@
+syntax = "proto3";
+package es;
+
+service Connection {
+    rpc Conn (stream ConnRequest) returns (stream ConnResponse){}
+}
+
+message ConnRequest{
+    string request = 1;
+}
+
+message ConnResponse{
+    string response = 1;
+}

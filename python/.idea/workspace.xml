@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70b3ea5d-f4bf-4f11-b9c0-7c3948b9a83d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../policy/my.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/action/LoggerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/action/Preconditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/action/TasteEventAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/action/TransportTasteEventAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/common/TasteEventRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/common/TasteEventRequestBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/common/TasteEventResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/grpc/ConnClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/grpc/FormatGrpcData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/grpc/GenerateData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/grpc/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/plugin/TastePlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/taste/elasticsearch_taste/rest/TasteEventRestAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/plugin-descriptor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/proto/connection.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/taste/elasticsearch_taste/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/taste/elasticsearch_taste/TasteEventRestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/taste/elasticsearch_taste/TastePluginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/LoggerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/Preconditions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/TasteEventAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/TransportTasteEventAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/TransportTasteEventAction$TransportHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/TransportTasteEventAction$TransportHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/action/TransportTasteEventAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/common/TasteEventRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/common/TasteEventRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/common/TasteEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/grpc/ConnClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/grpc/ConnClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/grpc/FormatGrpcData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/grpc/GenerateData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/plugin/TastePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/rest/ArgumentParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/rest/TasteEventRestAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/rest/TasteEventRestAction$Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/elasticsearch_taste/rest/TasteEventRestAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionBaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionBlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionFileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionFutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionMethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$ConnectionStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionGrpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionProto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/taste/grpc/ConnectionProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/plugin-descriptor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/proto/connection.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/elasticsearch-taste-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/elasticsearch/elasticsearch-taste-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/elasticsearch/plugin-descriptor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/grpc-java/com/taste/grpc/ConnectionGrpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/java/com/taste/grpc/ConnRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/java/com/taste/grpc/ConnRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/java/com/taste/grpc/ConnResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/java/com/taste/grpc/ConnResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/generated-sources/protobuf/java/com/taste/grpc/ConnectionProto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-dependencies/93b5b59cd86a50477c4e96cedb0ffed5/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-plugins/protoc-3.5.1-1-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/protoc-plugins/protoc-gen-grpc-java-1.15.0-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/taste-5.4.0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/taste/elasticsearch_taste/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/taste/elasticsearch_taste/TasteEventRestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/taste/elasticsearch_taste/TastePluginTest.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$Train.coverage" NAME="Train Coverage Results" MODIFIED="1537259491545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML" />
+    <SUITE FILE_PATH="coverage/python$ConnServer.coverage" NAME="ConnServer Coverage Results" MODIFIED="1537601210170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1537362268548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$FormatData.coverage" NAME="FormatData Coverage Results" MODIFIED="1537264663285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML" />
+    <SUITE FILE_PATH="coverage/python$writefile.coverage" NAME="writefile Coverage Results" MODIFIED="1537261059232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$ConnClient.coverage" NAME="ConnClient Coverage Results" MODIFIED="1537172756448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="483066143">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="m" value="5" />
+          <entry key="proto" value="1" />
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PROTO" value="1" />
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="py" value="2004" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="2004" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1649662897">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="73" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/connection.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/ConnServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+              <folding>
+                <element signature="e#15#45#0" expanded="true" />
+                <marker date="1537601405872" expanded="true" signature="325:326" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/FormatData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/TrainData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#80#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/connection.proto" />
+        <option value="$PROJECT_DIR$/client/ConnClient.py" />
+        <option value="$PROJECT_DIR$/ML/Train.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test/writefile.py" />
+        <option value="$PROJECT_DIR$/test/testing.py" />
+        <option value="$PROJECT_DIR$/ML/TrainData.py" />
+        <option value="$PROJECT_DIR$/ML/FormatData.py" />
+        <option value="$PROJECT_DIR$/server/ConnServer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-6" />
+    <option name="width" value="1855" />
+    <option name="height" value="1086" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ConnServer">
+    <configuration name="ConnServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/ConnServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FormatData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/FormatData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/TrainData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="writefile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/writefile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ConnServer" />
+      <item itemvalue="Python.writefile" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Train" />
+      <item itemvalue="Python.FormatData" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ConnServer" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.FormatData" />
+        <item itemvalue="Python.writefile" />
+        <item itemvalue="Python.Train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70b3ea5d-f4bf-4f11-b9c0-7c3948b9a83d" name="Default Changelist" comment="" />
+      <created>1537105444406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537105444406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26861554" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32778355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952183" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952183" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1390125208/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/connection_pb2_grpc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/ConnClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-end-column="442" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/writefile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/connection.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/TrainData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#80#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/FormatData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/ConnServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+            <marker date="1537601405872" expanded="true" signature="325:326" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
